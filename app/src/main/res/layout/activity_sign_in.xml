@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.krishna.zomato.SignUp">
+
+    <ImageView
+        android:id="@+id/fbIn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="40sp"
+        android:src="@drawable/fb" />
+
+    <ImageView
+        android:id="@+id/googleIn"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="40sp"
+        android:src="@drawable/google" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="20sp"
+        android:text="Sign in using your existing Zomato account" />
+
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40sp"
+        android:paddingTop="8sp"
+        android:text="Email"
+        android:textColor="@color/dark"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36sp"
+        android:inputType="textPersonName"
+        android:text="reqired"
+        android:id="@+id/textemail"
+        android:textColor="@color/colorGrey"
+        android:ems="10"/>
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40sp"
+        android:paddingTop="8sp"
+        android:text="Password"
+        android:textColor="@color/dark"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36sp"
+        android:inputType="textPassword"
+        android:id="@+id/textpassword"
+        android:text="reqired"
+        android:textColor="@color/colorGrey"
+        android:ems="10"/>
+    <ImageView
+        android:id="@+id/signInbutton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="40sp"
+        android:src="@drawable/signin" />
+    <TextView
+        android:id="@+id/forgot"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginRight="90sp"
+        android:layout_gravity="center"
+        android:text="Forgot Password?" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+        android:id="@+id/progressbar"/>
+
+</LinearLayout>
+

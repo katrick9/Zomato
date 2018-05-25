@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_loging"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.krishna.zomato.Loging">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="300sp"
+        android:orientation="vertical"
+        android:layout_marginTop="30sp">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/viewPager"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"></android.support.v4.view.ViewPager>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/google"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="30sp"
+            android:layout_weight="1"
+            android:layout_marginRight="40sp"
+            android:src="@drawable/google" />
+
+        <ImageView
+            android:id="@+id/fb"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="40sp"
+            android:src="@drawable/fb" />
+
+        <ImageView
+            android:id="@+id/emailme"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="30sp"
+            android:layout_marginRight="40sp"
+            android:src="@drawable/email" />
+
+        <TextView
+            android:id="@+id/signupme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:layout_marginLeft="90sp"
+            android:paddingBottom="8sp"
+            android:paddingTop="8sp"
+            android:text="New to Zomato? Sign up."
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/later"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120sp"
+            android:layout_weight="0.25"
+            android:text="I'll Sign in Later" />
+    </LinearLayout>
+
+</LinearLayout>

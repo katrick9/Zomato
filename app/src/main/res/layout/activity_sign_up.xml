@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_sign_up"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.krishna.zomato.SignUp">
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="40sp"
+        android:src="@drawable/fb" />
+
+    <ImageView
+        android:id="@+id/googleup"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="40sp"
+        android:src="@drawable/google" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:layout_marginTop="20sp"
+        android:id="@+id/emailSignup"
+        android:text="Sign up using email" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:paddingTop="8sp"
+        android:text="Name"
+        android:textColor="@color/dark"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36sp"
+        android:inputType="textPersonName"
+        android:text="reqired"
+        android:id="@+id/name"
+        android:textColor="@color/colorGrey"
+        android:ems="10"/>
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+
+        android:layout_marginLeft="40sp"
+        android:paddingTop="8sp"
+        android:text="Email"
+        android:textColor="@color/dark"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36sp"
+        android:inputType="textEmailAddress"
+        android:text="reqired"
+        android:id="@+id/email"
+        android:textColor="@color/colorGrey"
+        android:ems="10"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40sp"
+        android:paddingTop="8sp"
+        android:text="Password"
+        android:textColor="@color/dark"
+        android:textSize="15sp" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="36sp"
+        android:inputType="textPassword"
+        android:text="reqired"
+        android:id="@+id/password"
+        android:textColor="@color/colorGrey"
+        android:ems="10"/>
+
+    <CheckBox
+        android:text="Send me occassional email updates"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="80sp"
+        android:textSize="10sp"
+        android:textColor="@color/grey"
+        android:padding="20sp"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox" />
+    <ImageView
+        android:id="@+id/signbutton"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="30sp"
+        android:layout_marginRight="40sp"
+        android:src="@drawable/signup" />
+    <TextView
+        android:id="@+id/textmember"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90sp"
+        android:layout_marginRight="90sp"
+        android:text="Already a member? Sign in" />
+
+
+</LinearLayout>
